@@ -1,0 +1,44 @@
+.steps {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.steps h2 {
+  font-size: 1.8rem;
+}
+
+.steps span {
+  color: #4caf50;
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.step-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.step-card h3 {
+  margin-bottom: 10px;
+}
+
+.google{
+  background-color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+.google span{
+  color: #4caf50;
+}
+
+.google h2{
+  font-size: 1.8rem;
+}
